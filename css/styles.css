@@ -112,13 +112,13 @@ p {
 @media screen and (min-width: 1024px) {
     .badge {
         font-size: 1.5rem;
-}
-
+    }
+    
     .badge--small {
         font-size: 1.2rem;
-}
-}
 
+    }
+}
 /* lists */
 .list {
     list-style: none;
@@ -132,8 +132,22 @@ p {
 }
 
 .list--tick {
-    
+   list-style-image: url(../images/tick.svg); 
+   padding-left: 3rem;
 }
+
+.list--tick .list__item {
+    padding-left: 0.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+   .list--tick .list__item {
+     padding-left: 0;
+   }
+}
+    
+
+
     
 
 
