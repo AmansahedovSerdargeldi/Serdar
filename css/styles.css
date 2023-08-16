@@ -61,6 +61,8 @@ p {
     }
 }
 
+/* link */
+
 .link-arrow {
     color: var(--color-accent);
     text-transform: uppercase;
@@ -84,7 +86,7 @@ p {
    }
 }
 
-
+/* badge */
 .badge {
     border-radius: 20px;
     font-size: 2rem;
@@ -116,6 +118,23 @@ p {
         font-size: 1.2rem;
 }
 }
+
+/* lists */
+.list {
+    list-style: none;
+    padding-left: 0%;
+    color: var(--color-headings); 
+}
+
+.list--inline .list__item{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.list--tick {
     
+}
+    
+
 
 
